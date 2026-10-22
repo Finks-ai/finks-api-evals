@@ -156,6 +156,20 @@
     "success": 0.955
    },
    "verdict": "accepted on review"
+  },
+  {
+   "day": "2026-10-22",
+   "longtail": 0.107,
+   "screener": {
+    "passed": 43,
+    "total": 43
+   },
+   "search": {
+    "dev": 0.863,
+    "heldout": 0.886,
+    "success": 0.946
+   },
+   "verdict": "pass"
   }
  ]
 }
