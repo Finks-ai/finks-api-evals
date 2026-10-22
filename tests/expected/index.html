@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Finks API search quality</title><style>
+:root{--pass:#007a5a;--fail:#c0392b;--review:#b25e00;--line:#e5e7eb;--muted:#6b7280}
+*{box-sizing:border-box}
+body{font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#111827;
+background:#f9fafb;margin:0}
+main{max-width:1000px;margin:0 auto;padding:24px}
+h1{font-size:24px;margin:0 0 4px}
+h2{font-size:18px;margin:32px 0 8px;border-bottom:1px solid var(--line);padding-bottom:4px}
+a{color:#1d4ed8}
+nav{margin-bottom:16px}
+.muted{color:var(--muted)}
+td:first-child{white-space:nowrap}
+.small{font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin-top:12px}
+.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.big{font-size:28px;font-weight:700}
+.pass{color:var(--pass)}
+.fail{color:var(--fail)}
+.review{color:var(--review)}
+table{border-collapse:collapse;width:100%;background:#fff}
+th,td{border-bottom:1px solid var(--line);padding:4px 8px;text-align:left}
+th{background:#f3f4f6}
+dt{font-weight:600;margin-top:8px}
+dd{margin:2px 0 0 0}
+</style></head><body><main><header><h1>Finks API search quality</h1><div class="muted">latest release gate 2026-10-21 · 3 gates published</div></header><p>Every Finks API release is checked by a fixed set of evals before it ships: search relevance, small-company search and the stock screener. This site publishes their aggregate scores only.</p><div class="grid"><div class="card"><div class="muted">Verdict</div><div class="big"><span class="pass">pass</span></div></div><div class="card"><div class="muted">Search relevance, development</div><div class="big">0.861</div></div><div class="card"><div class="muted">Search relevance, held-out</div><div class="big">0.879</div></div><div class="card"><div class="muted">Found in top 5</div><div class="big">1.000</div></div><div class="card"><div class="muted">Small companies</div><div class="big">0.107</div></div><div class="card"><div class="muted">Screener</div><div class="big">43 of 43</div></div></div><p><a href="gates/">Every release gate</a></p></main></body></html>

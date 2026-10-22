@@ -1,0 +1,161 @@
+{
+ "as_of": "2026-10-22",
+ "gates": [
+  {
+   "day": "2026-10-15",
+   "longtail": null,
+   "screener": null,
+   "search": {
+    "dev": 0.776,
+    "heldout": 0.9,
+    "success": 0.951
+   },
+   "verdict": "accepted on review"
+  },
+  {
+   "day": "2026-10-19",
+   "longtail": null,
+   "screener": null,
+   "search": {
+    "dev": 0.794,
+    "heldout": 0.891,
+    "success": 0.927
+   },
+   "verdict": "pass"
+  },
+  {
+   "day": "2026-10-19",
+   "longtail": null,
+   "screener": null,
+   "search": {
+    "dev": 0.785,
+    "heldout": 0.833,
+    "success": 0.821
+   },
+   "verdict": "fail"
+  },
+  {
+   "day": "2026-10-19",
+   "longtail": null,
+   "screener": null,
+   "search": {
+    "dev": 0.823,
+    "heldout": 0.873,
+    "success": 0.92
+   },
+   "verdict": "pass"
+  },
+  {
+   "day": "2026-10-19",
+   "longtail": null,
+   "screener": {
+    "passed": 35,
+    "total": 36
+   },
+   "search": {
+    "dev": 0.822,
+    "heldout": 0.873,
+    "success": 0.911
+   },
+   "verdict": "accepted on review"
+  },
+  {
+   "day": "2026-10-19",
+   "longtail": null,
+   "screener": {
+    "passed": 43,
+    "total": 43
+   },
+   "search": {
+    "dev": 0.828,
+    "heldout": 0.858,
+    "success": 0.929
+   },
+   "verdict": "accepted on review"
+  },
+  {
+   "day": "2026-10-20",
+   "longtail": null,
+   "screener": {
+    "passed": 43,
+    "total": 43
+   },
+   "search": {
+    "dev": 0.839,
+    "heldout": 0.864,
+    "success": 0.929
+   },
+   "verdict": "pass"
+  },
+  {
+   "day": "2026-10-20",
+   "longtail": null,
+   "screener": {
+    "passed": 43,
+    "total": 43
+   },
+   "search": {
+    "dev": 0.838,
+    "heldout": 0.873,
+    "success": 0.946
+   },
+   "verdict": "accepted on review"
+  },
+  {
+   "day": "2026-10-20",
+   "longtail": null,
+   "screener": {
+    "passed": 43,
+    "total": 43
+   },
+   "search": {
+    "dev": 0.839,
+    "heldout": 0.868,
+    "success": 0.946
+   },
+   "verdict": "pass"
+  },
+  {
+   "day": "2026-10-21",
+   "longtail": 0.107,
+   "screener": {
+    "passed": 43,
+    "total": 43
+   },
+   "search": {
+    "dev": 0.861,
+    "heldout": 0.879,
+    "success": 0.929
+   },
+   "verdict": "pass"
+  },
+  {
+   "day": "2026-10-21",
+   "longtail": null,
+   "screener": {
+    "passed": 43,
+    "total": 43
+   },
+   "search": {
+    "dev": 0.862,
+    "heldout": 0.874,
+    "success": 0.92
+   },
+   "verdict": "pass"
+  },
+  {
+   "day": "2026-10-22",
+   "longtail": null,
+   "screener": {
+    "passed": 43,
+    "total": 43
+   },
+   "search": {
+    "dev": 0.863,
+    "heldout": 0.879,
+    "success": 0.955
+   },
+   "verdict": "accepted on review"
+  }
+ ]
+}

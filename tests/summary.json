@@ -1,0 +1,11 @@
+{
+ "as_of": "2026-10-21",
+ "gates": [
+  {"day": "2026-10-15", "verdict": "fail", "search": {"dev": 0.8, "heldout": 0.9, "success": 0.95},
+   "longtail": null, "screener": null},
+  {"day": "2026-10-20", "verdict": "accepted on review", "search": {"dev": 0.839, "heldout": null, "success": 0.929},
+   "longtail": 0.1, "screener": {"passed": 35, "total": 36}},
+  {"day": "2026-10-21", "verdict": "pass", "search": {"dev": 0.861, "heldout": 0.879, "success": 1},
+   "longtail": 0.107, "screener": {"passed": 43, "total": 43}}
+ ]
+}

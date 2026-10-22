@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Finks API release gates 2026-10-21</title><style>
+:root{--pass:#007a5a;--fail:#c0392b;--review:#b25e00;--line:#e5e7eb;--muted:#6b7280}
+*{box-sizing:border-box}
+body{font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#111827;
+background:#f9fafb;margin:0}
+main{max-width:1000px;margin:0 auto;padding:24px}
+h1{font-size:24px;margin:0 0 4px}
+h2{font-size:18px;margin:32px 0 8px;border-bottom:1px solid var(--line);padding-bottom:4px}
+a{color:#1d4ed8}
+nav{margin-bottom:16px}
+.muted{color:var(--muted)}
+td:first-child{white-space:nowrap}
+.small{font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin-top:12px}
+.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.big{font-size:28px;font-weight:700}
+.pass{color:var(--pass)}
+.fail{color:var(--fail)}
+.review{color:var(--review)}
+table{border-collapse:collapse;width:100%;background:#fff}
+th,td{border-bottom:1px solid var(--line);padding:4px 8px;text-align:left}
+th{background:#f3f4f6}
+dt{font-weight:600;margin-top:8px}
+dd{margin:2px 0 0 0}
+</style></head><body><main><nav class="small"><a href="../">Finks API evals</a></nav><header><h1>Release gates</h1><div class="muted">as of 2026-10-21 · newest first · scores from 0 to 1</div></header><table><tr><th>Day</th><th>Verdict</th><th>Search relevance, development</th><th>Search relevance, held-out</th><th>Found in top 5</th><th>Small companies</th><th>Screener</th></tr><tr><td>2026-10-21</td><td><span class="pass">pass</span></td><td>0.861</td><td>0.879</td><td>1.000</td><td>0.107</td><td>43 of 43</td></tr><tr><td>2026-10-20</td><td><span class="review">accepted on review</span></td><td>0.839</td><td>-</td><td>0.929</td><td>0.100</td><td>35 of 36</td></tr><tr><td>2026-10-15</td><td><span class="fail">fail</span></td><td>0.800</td><td>0.900</td><td>0.950</td><td>-</td><td>-</td></tr></table><p class="small muted">Each search score is the mean of the release's two runs after it went live, re-scored against today's grades, so older rows can move slightly as grades are added. A dash means the eval was not part of that gate.</p><h2>What each column measures</h2><dl><dt>Search relevance, development</dt><dd>How well the top 5 search results are ordered, scored by graded relevance (nDCG, top 5) from 0 to 1, on the development queries used for tuning.</dd><dt>Search relevance, held-out</dt><dd>The same score on held-out queries nobody looks at or tunes on: the release gate. Only this average is published.</dd><dt>Found in top 5</dt><dd>Share of find-the-item queries, over both query sets, whose known answer is among the top 5 results.</dd><dt>Small companies</dt><dd>Share of the top 10 results that are about the company asked for, for the smallest listed companies by market value (the bottom three tenths). Only gates that ran it show a value.</dd><dt>Screener</dt><dd>Structured stock screens checked against answers computed independently from the same data, plus requests that must be refused: screens passed of screens run.</dd><dt>Verdict</dt><dd>pass: every gate check held. fail: the release was rolled back. accepted on review: a check flagged a drop that review found to be measurement noise, and the release was kept.</dd></dl></main></body></html>
