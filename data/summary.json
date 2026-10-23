@@ -194,7 +194,7 @@
    },
    "search": {
     "dev": 0.868,
-    "heldout": 0.852,
+    "heldout": 0.851,
     "success": 0.946
    },
    "verdict": "accepted on review"
@@ -208,8 +208,22 @@
    },
    "search": {
     "dev": 0.864,
-    "heldout": 0.874,
+    "heldout": 0.873,
     "success": 0.946
+   },
+   "verdict": "accepted on review"
+  },
+  {
+   "day": "2026-10-23",
+   "longtail": 0.107,
+   "screener": {
+    "passed": 43,
+    "total": 43
+   },
+   "search": {
+    "dev": 0.859,
+    "heldout": 0.871,
+    "success": 0.929
    },
    "verdict": "accepted on review"
   }
