@@ -6,8 +6,8 @@
    "longtail": null,
    "screener": null,
    "search": {
-    "dev": 0.776,
-    "heldout": 0.9,
+    "dev": 0.784,
+    "heldout": 0.889,
     "success": 0.951
    },
    "verdict": "accepted on review"
@@ -17,8 +17,8 @@
    "longtail": null,
    "screener": null,
    "search": {
-    "dev": 0.794,
-    "heldout": 0.891,
+    "dev": 0.801,
+    "heldout": 0.879,
     "success": 0.927
    },
    "verdict": "pass"
@@ -28,8 +28,8 @@
    "longtail": null,
    "screener": null,
    "search": {
-    "dev": 0.785,
-    "heldout": 0.833,
+    "dev": 0.782,
+    "heldout": 0.846,
     "success": 0.821
    },
    "verdict": "fail"
@@ -39,8 +39,8 @@
    "longtail": null,
    "screener": null,
    "search": {
-    "dev": 0.823,
-    "heldout": 0.873,
+    "dev": 0.83,
+    "heldout": 0.855,
     "success": 0.92
    },
    "verdict": "pass"
@@ -53,8 +53,8 @@
     "total": 36
    },
    "search": {
-    "dev": 0.822,
-    "heldout": 0.873,
+    "dev": 0.829,
+    "heldout": 0.856,
     "success": 0.911
    },
    "verdict": "accepted on review"
@@ -67,8 +67,8 @@
     "total": 43
    },
    "search": {
-    "dev": 0.828,
-    "heldout": 0.858,
+    "dev": 0.834,
+    "heldout": 0.837,
     "success": 0.929
    },
    "verdict": "accepted on review"
@@ -81,8 +81,8 @@
     "total": 43
    },
    "search": {
-    "dev": 0.839,
-    "heldout": 0.864,
+    "dev": 0.845,
+    "heldout": 0.845,
     "success": 0.929
    },
    "verdict": "pass"
@@ -95,8 +95,8 @@
     "total": 43
    },
    "search": {
-    "dev": 0.838,
-    "heldout": 0.873,
+    "dev": 0.843,
+    "heldout": 0.856,
     "success": 0.946
    },
    "verdict": "accepted on review"
@@ -109,8 +109,8 @@
     "total": 43
    },
    "search": {
-    "dev": 0.839,
-    "heldout": 0.868,
+    "dev": 0.845,
+    "heldout": 0.85,
     "success": 0.946
    },
    "verdict": "pass"
@@ -123,8 +123,8 @@
     "total": 43
    },
    "search": {
-    "dev": 0.861,
-    "heldout": 0.879,
+    "dev": 0.865,
+    "heldout": 0.861,
     "success": 0.929
    },
    "verdict": "pass"
@@ -137,8 +137,8 @@
     "total": 43
    },
    "search": {
-    "dev": 0.862,
-    "heldout": 0.874,
+    "dev": 0.866,
+    "heldout": 0.856,
     "success": 0.92
    },
    "verdict": "pass"
@@ -151,8 +151,8 @@
     "total": 43
    },
    "search": {
-    "dev": 0.863,
-    "heldout": 0.879,
+    "dev": 0.867,
+    "heldout": 0.862,
     "success": 0.955
    },
    "verdict": "accepted on review"
@@ -165,8 +165,8 @@
     "total": 43
    },
    "search": {
-    "dev": 0.863,
-    "heldout": 0.886,
+    "dev": 0.867,
+    "heldout": 0.87,
     "success": 0.946
    },
    "verdict": "pass"
@@ -179,8 +179,22 @@
     "total": 43
    },
    "search": {
-    "dev": 0.863,
-    "heldout": 0.887,
+    "dev": 0.867,
+    "heldout": 0.872,
+    "success": 0.946
+   },
+   "verdict": "accepted on review"
+  },
+  {
+   "day": "2026-10-22",
+   "longtail": 0.107,
+   "screener": {
+    "passed": 43,
+    "total": 43
+   },
+   "search": {
+    "dev": 0.868,
+    "heldout": 0.873,
     "success": 0.946
    },
    "verdict": "accepted on review"
