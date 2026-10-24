@@ -90,6 +90,10 @@ def test_scan_fails_on_css_and_extra_files(tmp_path):
         lambda s: s["gates"][0]["search"].update(dev=1.5),
         lambda s: s["gates"][0]["search"].update(query="NVDA earnings"),
         lambda s: s["gates"][0].update(screener={"passed": 5, "total": 4}),
+        lambda s: s["gates"][-1]["data"].update(exact=1.2),
+        lambda s: s["gates"][-1]["data"].update(dataset="holders"),
+        lambda s: s["gates"][-1].update(data={"exact": 0.5}),
+        lambda s: s["gates"][0].update(data="holders"),
         lambda s: s.update(gates=[]),
     ],
 )
@@ -101,6 +105,14 @@ def test_schema_refuses(tmp_path, mutate):
     with pytest.raises(SystemExit, match="refused"):
         render.main(["--data", str(bad), "--out", str(tmp_path / "site")])
     assert not (tmp_path / "site").exists()
+
+
+def test_data_is_optional_per_gate():
+    s = summary()
+    assert "data" not in s["gates"][0] and "data" in s["gates"][-1]
+    render.check(s)
+    gates = render.gates_page(s)
+    assert "<td>0.817</td><td>0.976</td>" in gates and "Data panel, exact" in render.index_page(s)
 
 
 def test_write_deletes_output_on_leak(tmp_path):

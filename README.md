@@ -3,7 +3,8 @@
 The public Finks API search quality site, served at https://finks-ai.github.io/finks-api-evals/. Everything here
 is public and readable by anyone on the internet. It carries only aggregate scores of the Finks API release gates:
 per gate, its day, its verdict, search relevance on development and held-out queries, found-in-top-5,
-small-company on-topic share and screener screens passed.
+small-company on-topic share, screener screens passed and, for gates that ran it, the data panel's held-out
+exact-set rate and precision.
 
 ## How it is built
 
