@@ -330,6 +330,24 @@
     "success": 0.926
    },
    "verdict": "pass"
+  },
+  {
+   "data": {
+    "exact": 0.767,
+    "precision": 0.961
+   },
+   "day": "2026-10-25",
+   "longtail": 0.109,
+   "screener": {
+    "passed": 43,
+    "total": 43
+   },
+   "search": {
+    "dev": 0.91,
+    "heldout": 0.915,
+    "success": 0.926
+   },
+   "verdict": "accepted on review"
   }
  ]
 }
