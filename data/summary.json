@@ -289,8 +289,8 @@
     "total": 43
    },
    "search": {
-    "dev": 0.909,
-    "heldout": 0.93,
+    "dev": 0.904,
+    "heldout": 0.928,
     "success": 0.926
    },
    "verdict": "accepted on review"
@@ -307,11 +307,29 @@
     "total": 43
    },
    "search": {
-    "dev": 0.91,
-    "heldout": 0.921,
+    "dev": 0.905,
+    "heldout": 0.92,
     "success": 0.926
    },
    "verdict": "accepted on review"
+  },
+  {
+   "data": {
+    "exact": 0.783,
+    "precision": 0.98
+   },
+   "day": "2026-10-25",
+   "longtail": 0.109,
+   "screener": {
+    "passed": 43,
+    "total": 43
+   },
+   "search": {
+    "dev": 0.913,
+    "heldout": 0.926,
+    "success": 0.926
+   },
+   "verdict": "pass"
   }
  ]
 }
