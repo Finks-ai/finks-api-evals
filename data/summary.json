@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-24",
+ "as_of": "2026-10-25",
  "gates": [
   {
    "day": "2026-10-15",
@@ -254,7 +254,7 @@
    },
    "search": {
     "dev": 0.902,
-    "heldout": 0.934,
+    "heldout": 0.928,
     "success": 0.919
    },
    "verdict": "accepted on review"
@@ -272,8 +272,26 @@
    },
    "search": {
     "dev": 0.898,
-    "heldout": 0.932,
+    "heldout": 0.929,
     "success": 0.934
+   },
+   "verdict": "accepted on review"
+  },
+  {
+   "data": {
+    "exact": 0.75,
+    "precision": 0.959
+   },
+   "day": "2026-10-25",
+   "longtail": 0.109,
+   "screener": {
+    "passed": 43,
+    "total": 43
+   },
+   "search": {
+    "dev": 0.912,
+    "heldout": 0.932,
+    "success": 0.926
    },
    "verdict": "accepted on review"
   }
