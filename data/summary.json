@@ -253,8 +253,8 @@
     "total": 43
    },
    "search": {
-    "dev": 0.901,
-    "heldout": 0.927,
+    "dev": 0.9,
+    "heldout": 0.92,
     "success": 0.919
    },
    "verdict": "accepted on review"
@@ -271,8 +271,8 @@
     "total": 43
    },
    "search": {
-    "dev": 0.897,
-    "heldout": 0.928,
+    "dev": 0.896,
+    "heldout": 0.921,
     "success": 0.934
    },
    "verdict": "accepted on review"
@@ -289,8 +289,8 @@
     "total": 43
    },
    "search": {
-    "dev": 0.904,
-    "heldout": 0.928,
+    "dev": 0.901,
+    "heldout": 0.921,
     "success": 0.926
    },
    "verdict": "accepted on review"
@@ -307,8 +307,8 @@
     "total": 43
    },
    "search": {
-    "dev": 0.905,
-    "heldout": 0.92,
+    "dev": 0.902,
+    "heldout": 0.913,
     "success": 0.926
    },
    "verdict": "accepted on review"
@@ -325,8 +325,8 @@
     "total": 43
    },
    "search": {
-    "dev": 0.913,
-    "heldout": 0.926,
+    "dev": 0.91,
+    "heldout": 0.92,
     "success": 0.926
    },
    "verdict": "pass"
@@ -343,8 +343,26 @@
     "total": 43
    },
    "search": {
-    "dev": 0.91,
-    "heldout": 0.915,
+    "dev": 0.907,
+    "heldout": 0.909,
+    "success": 0.926
+   },
+   "verdict": "accepted on review"
+  },
+  {
+   "data": {
+    "exact": 0.767,
+    "precision": 0.96
+   },
+   "day": "2026-10-25",
+   "longtail": 0.109,
+   "screener": {
+    "passed": 43,
+    "total": 43
+   },
+   "search": {
+    "dev": 0.908,
+    "heldout": 0.898,
     "success": 0.926
    },
    "verdict": "accepted on review"
