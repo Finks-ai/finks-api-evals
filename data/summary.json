@@ -402,6 +402,24 @@
     "success": 0.919
    },
    "verdict": "accepted on review"
+  },
+  {
+   "data": {
+    "exact": 0.783,
+    "precision": 0.98
+   },
+   "day": "2026-10-26",
+   "longtail": 0.11,
+   "screener": {
+    "passed": 43,
+    "total": 43
+   },
+   "search": {
+    "dev": 0.889,
+    "heldout": 0.9,
+    "success": 0.926
+   },
+   "verdict": "pass"
   }
  ]
 }
