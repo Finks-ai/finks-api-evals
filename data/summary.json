@@ -369,7 +369,7 @@
   },
   {
    "data": {
-    "exact": 0.783,
+    "exact": 0.767,
     "precision": 0.98
    },
    "day": "2026-10-26",
@@ -387,7 +387,7 @@
   },
   {
    "data": {
-    "exact": 0.783,
+    "exact": 0.767,
     "precision": 0.98
    },
    "day": "2026-10-26",
@@ -405,7 +405,7 @@
   },
   {
    "data": {
-    "exact": 0.783,
+    "exact": 0.767,
     "precision": 0.98
    },
    "day": "2026-10-26",
@@ -423,7 +423,7 @@
   },
   {
    "data": {
-    "exact": 0.783,
+    "exact": 0.767,
     "precision": 0.98
    },
    "day": "2026-10-26",
@@ -441,7 +441,7 @@
   },
   {
    "data": {
-    "exact": 0.783,
+    "exact": 0.767,
     "precision": 0.98
    },
    "day": "2026-10-26",
@@ -459,7 +459,7 @@
   },
   {
    "data": {
-    "exact": 0.783,
+    "exact": 0.767,
     "precision": 0.98
    },
    "day": "2026-10-26",
@@ -477,7 +477,7 @@
   },
   {
    "data": {
-    "exact": 0.783,
+    "exact": 0.767,
     "precision": 0.98
    },
    "day": "2026-10-27",
@@ -495,7 +495,7 @@
   },
   {
    "data": {
-    "exact": 0.783,
+    "exact": 0.75,
     "precision": 0.98
    },
    "day": "2026-10-27",
@@ -513,7 +513,7 @@
   },
   {
    "data": {
-    "exact": 0.783,
+    "exact": 0.75,
     "precision": 0.98
    },
    "day": "2026-10-28",
@@ -531,7 +531,7 @@
   },
   {
    "data": {
-    "exact": 0.783,
+    "exact": 0.75,
     "precision": 0.98
    },
    "day": "2026-10-28",
@@ -546,6 +546,24 @@
     "success": 0.956
    },
    "verdict": "pass"
+  },
+  {
+   "data": {
+    "exact": 0.783,
+    "precision": 0.98
+   },
+   "day": "2026-10-28",
+   "longtail": null,
+   "screener": {
+    "passed": 43,
+    "total": 43
+   },
+   "search": {
+    "dev": null,
+    "heldout": 0.901,
+    "success": 0.971
+   },
+   "verdict": "accepted on review"
   }
  ]
 }
