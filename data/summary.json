@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-28",
+ "as_of": "2026-10-29",
  "gates": [
   {
    "day": "2026-10-15",
@@ -562,6 +562,24 @@
     "dev": null,
     "heldout": 0.901,
     "success": 0.971
+   },
+   "verdict": "accepted on review"
+  },
+  {
+   "data": {
+    "exact": 0.783,
+    "precision": 0.98
+   },
+   "day": "2026-10-29",
+   "longtail": null,
+   "screener": {
+    "passed": 43,
+    "total": 43
+   },
+   "search": {
+    "dev": null,
+    "heldout": null,
+    "success": 0.963
    },
    "verdict": "accepted on review"
   }
