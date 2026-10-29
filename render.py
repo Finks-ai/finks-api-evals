@@ -17,7 +17,7 @@ from pathlib import Path
 
 from scan import FILES, Leak, scan
 
-VERDICTS = {"pass": "pass", "fail": "fail", "accepted on review": "review"}  # verdict -> CSS class
+VERDICTS = {"pass": "pass", "fail": "fail", "accepted on review": "review", "grading deferred": "deferred"}  # verdict -> CSS class
 
 
 class Refused(Exception):
@@ -99,6 +99,7 @@ td:first-child{white-space:nowrap}
 .pass{color:var(--pass)}
 .fail{color:var(--fail)}
 .review{color:var(--review)}
+.deferred{color:var(--muted)}
 table{border-collapse:collapse;width:100%;background:#fff}
 th,td{border-bottom:1px solid var(--line);padding:4px 8px;text-align:left}
 th{background:#f3f4f6}
@@ -123,7 +124,8 @@ ABOUT = (
     ("Data panel, precision", "Share of the kinds of data shown in the data panel, over the held-out searches, that "
      "the question asked for."),
     ("Verdict", "pass: every gate check held. fail: the release was rolled back. accepted on review: a check "
-     "flagged a drop that review found to be measurement noise, and the release was kept."),
+     "flagged a drop that review found to be measurement noise, and the release was kept. grading deferred: the "
+     "search scores wait for grading, show \"-\" until then, and the verdict is updated once graded."),
 )
 
 

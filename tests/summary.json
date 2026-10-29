@@ -43,6 +43,24 @@
     "exact": 0.817,
     "precision": 0.976
    }
+  },
+  {
+   "day": "2026-10-21",
+   "verdict": "grading deferred",
+   "search": {
+    "dev": null,
+    "heldout": null,
+    "success": 1
+   },
+   "longtail": 0.107,
+   "screener": {
+    "passed": 43,
+    "total": 43
+   },
+   "data": {
+    "exact": 0.817,
+    "precision": 0.976
+   }
   }
  ]
 }
