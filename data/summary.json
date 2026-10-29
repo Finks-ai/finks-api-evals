@@ -705,6 +705,24 @@
     "success": 0.963
    },
    "verdict": "grading deferred"
+  },
+  {
+   "data": {
+    "exact": 0.775,
+    "precision": 0.98
+   },
+   "day": "2026-10-29",
+   "longtail": null,
+   "screener": {
+    "passed": 43,
+    "total": 43
+   },
+   "search": {
+    "dev": null,
+    "heldout": null,
+    "success": 0.963
+   },
+   "verdict": "pass"
   }
  ]
 }
